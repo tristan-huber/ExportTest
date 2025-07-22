@@ -157,7 +157,7 @@
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": null,
+            "type": "SVG",
             "resolution": 96,
             "importIndex": 0,
             "partName": "ExportTest"
