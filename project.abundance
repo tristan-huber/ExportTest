@@ -96,10 +96,6 @@
                     "ioValue": "aaebd684-66ee-497b-982f-4dbf0309c551"
                 },
                 {
-                    "name": "Shape 3",
-                    "ioValue": ""
-                },
-                {
                     "name": "Shape 1",
                     "ioValue": "8a8fc3a6-c948-46f8-a2cf-dc32fb870d06"
                 },
@@ -109,7 +105,7 @@
                 },
                 {
                     "name": "Shape 3",
-                    "ioValue": ""
+                    "ioValue": null
                 }
             ],
             "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
@@ -144,16 +140,16 @@
                     "ioValue": "4603c04a-d44c-402b-9c5d-f54413826813"
                 },
                 {
+                    "name": "File Type",
+                    "ioValue": "SVG"
+                },
+                {
                     "name": "Resolution (dpi)",
                     "ioValue": 96
                 },
                 {
                     "name": "Part Name",
                     "ioValue": "ExportTest"
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "SVG"
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
@@ -167,42 +163,36 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 2",
-            "ap2Primary": false,
             "ap1ID": "aaebd684-66ee-497b-982f-4dbf0309c551",
             "ap2ID": "fae66517-f45f-4490-ba18-24d758031de1"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "805ebad6-ae69-45e2-88dc-9faac2ece2cb",
             "ap2ID": "8a8fc3a6-c948-46f8-a2cf-dc32fb870d06"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 1",
-            "ap2Primary": false,
             "ap1ID": "8a8fc3a6-c948-46f8-a2cf-dc32fb870d06",
             "ap2ID": "fae66517-f45f-4490-ba18-24d758031de1"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "fae66517-f45f-4490-ba18-24d758031de1",
             "ap2ID": "4603c04a-d44c-402b-9c5d-f54413826813"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
             "ap1ID": "4603c04a-d44c-402b-9c5d-f54413826813",
             "ap2ID": "daba2a21-e7ed-4236-95e2-5bc5ebf6774c"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
-            "ap2Primary": false,
             "ap1ID": "4603c04a-d44c-402b-9c5d-f54413826813",
             "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
         }
