@@ -101,7 +101,7 @@
                 },
                 {
                     "name": "Geometry",
-                    "ioValue": null,
+                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
                     "currentEquation": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c"
                 }
             ],
@@ -267,7 +267,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "8a8fc3a6-c948-46f8-a2cf-dc32fb870d06",
+                            "ioValue": "7b605e97-3911-434a-8636-d36029a7f439",
                             "currentEquation": null
                         }
                     ],
@@ -282,13 +282,49 @@
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "geometry"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4453125,
+                    "y": 0.625,
+                    "uniqueID": "7b605e97-3911-434a-8636-d36029a7f439",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "8a8fc3a6-c948-46f8-a2cf-dc32fb870d06",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "number or geometry",
+                    "ap2Name": "geometry",
                     "ap1ID": "6530f0b1-3f8f-44be-b00a-902831086bec",
+                    "ap2ID": "7b605e97-3911-434a-8636-d36029a7f439"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "7b605e97-3911-434a-8636-d36029a7f439",
                     "ap2ID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23"
                 }
             ],
