@@ -187,7 +187,7 @@
                     "uniqueID": "2eda6b19-f9ed-4260-8f46-1390a595957d",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "number"
+                    "type": "geometry"
                 }
             ],
             "allConnectors": [
