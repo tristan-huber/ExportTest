@@ -14,13 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "b8f62792-33dd-4649-9971-8e12b5d69689",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -60,13 +54,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "7b605e97-3911-434a-8636-d36029a7f439",
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -86,11 +74,6 @@
                     "y": 0.625,
                     "uniqueID": "7b605e97-3911-434a-8636-d36029a7f439",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "805ebad6-ae69-45e2-88dc-9faac2ece2cb",
-                            "currentEquation": null
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 10,
