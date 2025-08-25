@@ -4,13 +4,7 @@
     "x": 0,
     "y": 0,
     "uniqueID": "a74a1315-99f7-4001-adde-02dfac985075",
-    "ioValues": [
-        {
-            "name": "blep",
-            "ioValue": 3,
-            "currentEquation": "3"
-        }
-    ],
+    "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -120,12 +114,14 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": "6530f0b1-3f8f-44be-b00a-902831086bec",
                     "ap2ID": "7b605e97-3911-434a-8636-d36029a7f439"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": "7b605e97-3911-434a-8636-d36029a7f439",
                     "ap2ID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23"
                 }
@@ -182,6 +178,11 @@
                     "uniqueID": "59d388f2-822f-48da-a4a1-fad4017739ce",
                     "ioValues": [
                         {
+                            "name": "Shape",
+                            "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
+                            "currentEquation": null
+                        },
+                        {
                             "name": "Number",
                             "ioValue": 4,
                             "currentEquation": null
@@ -189,11 +190,6 @@
                         {
                             "name": "Dist",
                             "ioValue": 15,
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "Shape",
-                            "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
                             "currentEquation": null
                         }
                     ],
@@ -254,26 +250,30 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "output",
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": "59d388f2-822f-48da-a4a1-fad4017739ce",
                     "ap2ID": "a959e754-10dd-4fb8-8fba-dae350893d7b"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Number",
+                    "ap2Primary": false,
                     "ap1ID": "53b282c0-51fe-45f6-9405-4cdce7234623",
                     "ap2ID": "59d388f2-822f-48da-a4a1-fad4017739ce"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Dist",
+                    "ap2Primary": false,
                     "ap1ID": "dbc11536-7e73-48d1-9c32-15fa6903ed56",
                     "ap2ID": "59d388f2-822f-48da-a4a1-fad4017739ce"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Shape",
+                    "ap2Primary": false,
                     "ap1ID": "7da9faf8-653e-419d-8b98-2046ca85f9ce",
                     "ap2ID": "59d388f2-822f-48da-a4a1-fad4017739ce"
                 }
@@ -333,13 +333,13 @@
             "ioValues": [
                 {
                     "name": "Number",
-                    "ioValue": 5,
+                    "ioValue": 4,
                     "currentEquation": "4"
                 },
                 {
                     "name": "Geometry",
                     "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
-                    "currentEquation": null
+                    "currentEquation": "10"
                 },
                 {
                     "name": "distX",
@@ -348,7 +348,7 @@
                 },
                 {
                     "name": "distY",
-                    "ioValue": 5,
+                    "ioValue": 4,
                     "currentEquation": "10"
                 },
                 {
@@ -423,8 +423,13 @@
                     "uniqueID": "3f3b380c-3f7b-464a-806d-e577cf7dc604",
                     "ioValues": [
                         {
+                            "name": "Shape",
+                            "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
+                            "currentEquation": null
+                        },
+                        {
                             "name": "Number",
-                            "ioValue": 5,
+                            "ioValue": 4,
                             "currentEquation": null
                         },
                         {
@@ -434,17 +439,12 @@
                         },
                         {
                             "name": "distY",
-                            "ioValue": 5,
+                            "ioValue": 4,
                             "currentEquation": null
                         },
                         {
                             "name": "distZ",
                             "ioValue": 10,
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "Shape",
-                            "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
                             "currentEquation": null
                         }
                     ],
@@ -487,36 +487,42 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Number",
+                    "ap2Primary": false,
                     "ap1ID": "e94269bc-a777-4b79-b569-8488e996c6f0",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Shape",
+                    "ap2Primary": false,
                     "ap1ID": "cae71d35-aff6-4d4f-bbe2-abc533513c4b",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 },
                 {
-                    "ap1Name": "output",
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604",
                     "ap2ID": "b0bab4a9-00a2-45d6-8052-31ebf52184a3"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distX",
+                    "ap2Primary": false,
                     "ap1ID": "aeadfe06-4422-47d7-a76e-7f1dc47cf18d",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distY",
+                    "ap2Primary": false,
                     "ap1ID": "9f71e343-8b57-41e5-958e-ea0ee868c231",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distZ",
+                    "ap2Primary": false,
                     "ap1ID": "8736c534-dd38-4756-be04-ce96b29999a6",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 }
@@ -575,73 +581,65 @@
             "uniqueID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ioValues": [],
             "description": "Defines a mathematical constant.",
-            "value": 5
-        },
-        {
-            "atomType": "Input",
-            "name": "blep",
-            "x": 0.025384615384615384,
-            "y": 0.6517857142857143,
-            "uniqueID": "d60ba84f-48e8-42f2-847e-4166a0ebcd3d",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
+            "value": 4
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "geometry or number",
+            "ap1Name": "Geometry",
             "ap2Name": "number or geometry",
+            "ap2Primary": false,
             "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
             "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
         },
         {
-            "ap1Name": "geometry or number",
+            "ap1Name": "Geometry",
             "ap2Name": "Geometry",
+            "ap2Primary": false,
             "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
             "ap2ID": "9f17a700-f52e-4a03-9af3-e5195bd640ca"
         },
         {
-            "ap1Name": "geometry or number",
+            "ap1Name": "Geometry",
             "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
             "ap2ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Input (1)",
+            "ap2Primary": false,
             "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
             "ap2ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Geometry",
+            "ap2Primary": false,
             "ap1ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
             "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
         },
         {
             "ap1Name": "number",
             "ap2Name": "height",
+            "ap2Primary": false,
             "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ap2ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc"
         },
         {
             "ap1Name": "number",
             "ap2Name": "Number",
+            "ap2Primary": false,
             "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
         },
         {
             "ap1Name": "number",
             "ap2Name": "distY",
+            "ap2Primary": false,
             "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "diameter",
-            "ap1ID": "d60ba84f-48e8-42f2-847e-4166a0ebcd3d",
-            "ap2ID": "67930380-f2ff-49ce-b9f1-629a1071d56a"
         }
     ],
     "unitsKey": "MM",
