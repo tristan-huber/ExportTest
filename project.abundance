@@ -18,95 +18,6 @@
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.32356770833333337,
-            "y": 0.5178571428571428,
-            "uniqueID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-            "ioValues": [
-                {
-                    "name": "Input (1)",
-                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "7b605e97-3911-434a-8636-d36029a7f439",
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Input (1)",
-                    "x": 0.025384615384615384,
-                    "y": 0.5714285714285714,
-                    "uniqueID": "6530f0b1-3f8f-44be-b00a-902831086bec",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "geometry"
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.5299479166666666,
-                    "y": 0.6696428571428571,
-                    "uniqueID": "7b605e97-3911-434a-8636-d36029a7f439",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 10,
-                            "currentEquation": "10"
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0,
-                            "currentEquation": "0"
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0,
-                            "currentEquation": "0"
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": "6530f0b1-3f8f-44be-b00a-902831086bec",
-                    "ap2ID": "7b605e97-3911-434a-8636-d36029a7f439"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "7b605e97-3911-434a-8636-d36029a7f439",
-                    "ap2ID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23"
-                }
-            ],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
-        },
-        {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
             "x": 0.4153645833333333,
@@ -125,7 +36,7 @@
                 },
                 {
                     "name": "Geometry",
-                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
+                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
                     "currentEquation": null
                 }
             ],
@@ -243,21 +154,15 @@
     "allConnectors": [
         {
             "ap1Name": "geometry or number",
-            "ap2Name": "Geometry",
-            "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-            "ap2ID": "9f17a700-f52e-4a03-9af3-e5195bd640ca"
-        },
-        {
-            "ap1Name": "geometry or number",
             "ap2Name": "number or geometry",
             "ap1ID": "9f17a700-f52e-4a03-9af3-e5195bd640ca",
             "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Input (1)",
+            "ap2Name": "Geometry",
             "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-            "ap2ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c"
+            "ap2ID": "9f17a700-f52e-4a03-9af3-e5195bd640ca"
         }
     ],
     "unitsKey": "MM",
