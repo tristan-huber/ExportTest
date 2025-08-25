@@ -14,19 +14,45 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "b8f62792-33dd-4649-9971-8e12b5d69689",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "dc37990f-eff0-4749-a165-44ad3865b97c",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.18033854166666669,
+            "y": 0.6547619047619048,
+            "uniqueID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 3,
+                    "currentEquation": "3"
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 8,
+                    "currentEquation": "blep"
+                }
+            ],
+            "description": "Creates a new regular polygon. Corners are on the diameter."
         },
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.4153645833333333,
-            "y": 0.7142857142857143,
-            "uniqueID": "9f17a700-f52e-4a03-9af3-e5195bd640ca",
+            "x": 0.4466145833333333,
+            "y": 0.6011904761904762,
+            "uniqueID": "dc37990f-eff0-4749-a165-44ad3865b97c",
             "ioValues": [
                 {
                     "name": "Number",
-                    "ioValue": 3,
+                    "ioValue": 4,
                     "currentEquation": null
                 },
                 {
@@ -48,16 +74,49 @@
                     "name": "Output",
                     "x": 0.98,
                     "y": 0.5,
-                    "uniqueID": "a959e754-10dd-4fb8-8fba-dae350893d7b",
-                    "ioValues": [],
+                    "uniqueID": "d7c4682e-a872-405b-8ffe-5b17268454e9",
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "4ad1e0ec-0fdf-481f-959f-ed06561748b3",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.5112433862433863,
+                    "y": 0.4345403899721449,
+                    "uniqueID": "4ad1e0ec-0fdf-481f-959f-ed06561748b3",
+                    "ioValues": [
+                        {
+                            "name": "Shape",
+                            "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Number",
+                            "ioValue": 4,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Dist",
+                            "ioValue": 15,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Defines a Replicad code block.",
+                    "codeVersion": 1,
+                    "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                 },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 0.27976190476190477,
                     "y": 0.2116991643454039,
-                    "uniqueID": "cd2320f4-51ba-4ddf-a3bd-523c71fdae08",
+                    "uniqueID": "67201135-a443-4a52-9258-a790cb021ceb",
                     "ioValues": [
                         {
                             "name": "x length",
@@ -77,7 +136,7 @@
                     "name": "Number",
                     "x": 0.025384615384615384,
                     "y": 0.32869080779944293,
-                    "uniqueID": "53b282c0-51fe-45f6-9405-4cdce7234623",
+                    "uniqueID": "37e66e81-5df7-40f3-af61-545a21f2a390",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
@@ -87,7 +146,7 @@
                     "name": "Dist",
                     "x": 0.025384615384615384,
                     "y": 0.6434540389972144,
-                    "uniqueID": "dbc11536-7e73-48d1-9c32-15fa6903ed56",
+                    "uniqueID": "e9be7ebf-7352-40c9-83ba-73b000a25fd1",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
@@ -97,15 +156,40 @@
                     "name": "Geometry",
                     "x": 0.025384615384615384,
                     "y": 0.9108635097493036,
-                    "uniqueID": "7da9faf8-653e-419d-8b98-2046ca85f9ce",
+                    "uniqueID": "3cdc23f8-8700-4d42-abf6-2d88723daefb",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "output",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "4ad1e0ec-0fdf-481f-959f-ed06561748b3",
+                    "ap2ID": "d7c4682e-a872-405b-8ffe-5b17268454e9"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Number",
+                    "ap1ID": "37e66e81-5df7-40f3-af61-545a21f2a390",
+                    "ap2ID": "4ad1e0ec-0fdf-481f-959f-ed06561748b3"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Dist",
+                    "ap1ID": "e9be7ebf-7352-40c9-83ba-73b000a25fd1",
+                    "ap2ID": "4ad1e0ec-0fdf-481f-959f-ed06561748b3"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Shape",
+                    "ap1ID": "3cdc23f8-8700-4d42-abf6-2d88723daefb",
+                    "ap2ID": "4ad1e0ec-0fdf-481f-959f-ed06561748b3"
+                }
+            ],
             "parentRepo": {
-                "lastFoundGit": "2025-08-22T15:47:14.694Z",
+                "lastFoundGit": "2025-08-25T15:47:14.803Z",
                 "privateRepo": false,
                 "repoName": "Linear-Pattern",
                 "dateCreated": "2025-02-19T00:40:13Z",
@@ -129,40 +213,20 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "RegularPolygon",
-            "name": "RegularPolygon",
-            "x": 0.18033854166666669,
-            "y": 0.6547619047619048,
-            "uniqueID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-            "ioValues": [
-                {
-                    "name": "number of sides",
-                    "ioValue": 3,
-                    "currentEquation": "3"
-                },
-                {
-                    "name": "diameter",
-                    "ioValue": 8,
-                    "currentEquation": "blep"
-                }
-            ],
-            "description": "Creates a new regular polygon. Corners are on the diameter."
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "geometry or number",
-            "ap2Name": "number or geometry",
-            "ap1ID": "9f17a700-f52e-4a03-9af3-e5195bd640ca",
-            "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-            "ap2ID": "9f17a700-f52e-4a03-9af3-e5195bd640ca"
+            "ap2ID": "dc37990f-eff0-4749-a165-44ad3865b97c"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "number or geometry",
+            "ap1ID": "dc37990f-eff0-4749-a165-44ad3865b97c",
+            "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
         }
     ],
     "unitsKey": "MM",
