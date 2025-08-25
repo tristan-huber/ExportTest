@@ -7,8 +7,8 @@
     "ioValues": [
         {
             "name": "blep",
-            "ioValue": 5,
-            "currentEquation": "5"
+            "ioValue": 4,
+            "currentEquation": "4"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -20,13 +20,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "b8f62792-33dd-4649-9971-8e12b5d69689",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -50,13 +44,7 @@
             "x": 0.3782552083333333,
             "y": 0.7351190476190477,
             "uniqueID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-            "ioValues": [
-                {
-                    "name": "Input (1)",
-                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
@@ -66,13 +54,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "7b605e97-3911-434a-8636-d36029a7f439",
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -92,11 +74,6 @@
                     "y": 0.625,
                     "uniqueID": "7b605e97-3911-434a-8636-d36029a7f439",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-                            "currentEquation": null
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 10,
@@ -149,11 +126,6 @@
                     "name": "Dist",
                     "ioValue": 15,
                     "currentEquation": null
-                },
-                {
-                    "name": "Geometry",
-                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-                    "currentEquation": null
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -165,13 +137,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "a959e754-10dd-4fb8-8fba-dae350893d7b",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "59d388f2-822f-48da-a4a1-fad4017739ce",
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -181,11 +147,6 @@
                     "y": 0.4345403899721449,
                     "uniqueID": "59d388f2-822f-48da-a4a1-fad4017739ce",
                     "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-                            "currentEquation": null
-                        },
                         {
                             "name": "Number",
                             "ioValue": 4,
@@ -318,7 +279,7 @@
                 },
                 {
                     "name": "diameter",
-                    "ioValue": 5,
+                    "ioValue": 4,
                     "currentEquation": "10"
                 }
             ],
@@ -335,11 +296,6 @@
                     "name": "Number",
                     "ioValue": 4,
                     "currentEquation": "4"
-                },
-                {
-                    "name": "Geometry",
-                    "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
-                    "currentEquation": "10"
                 },
                 {
                     "name": "distX",
@@ -366,13 +322,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "b0bab4a9-00a2-45d6-8052-31ebf52184a3",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "3f3b380c-3f7b-464a-806d-e577cf7dc604",
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -422,11 +372,6 @@
                     "y": 0.4337349397590362,
                     "uniqueID": "3f3b380c-3f7b-464a-806d-e577cf7dc604",
                     "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
-                            "currentEquation": null
-                        },
                         {
                             "name": "Number",
                             "ioValue": 4,
@@ -555,13 +500,8 @@
             "uniqueID": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-                    "currentEquation": null
-                },
-                {
                     "name": "height",
-                    "ioValue": 10,
+                    "ioValue": 4,
                     "currentEquation": "10"
                 }
             ],
