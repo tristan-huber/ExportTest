@@ -321,13 +321,13 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.673828125,
-            "y": 0.2916666666666667,
+            "x": 0.7278645833333334,
+            "y": 0.17261904761904762,
             "uniqueID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4",
             "ioValues": [
                 {
                     "name": "Number",
-                    "ioValue": 4,
+                    "ioValue": 8,
                     "currentEquation": "4"
                 },
                 {
@@ -342,7 +342,7 @@
                 },
                 {
                     "name": "distY",
-                    "ioValue": 10,
+                    "ioValue": 8,
                     "currentEquation": "10"
                 },
                 {
@@ -423,7 +423,7 @@
                         },
                         {
                             "name": "Number",
-                            "ioValue": 4,
+                            "ioValue": 8,
                             "currentEquation": null
                         },
                         {
@@ -433,7 +433,7 @@
                         },
                         {
                             "name": "distY",
-                            "ioValue": 10,
+                            "ioValue": 8,
                             "currentEquation": null
                         },
                         {
@@ -544,8 +544,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5104166666666666,
-            "y": 0.3035714285714286,
+            "x": 0.5247395833333334,
+            "y": 0.318452380952381,
             "uniqueID": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
             "ioValues": [
                 {
@@ -555,11 +555,21 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
+                    "ioValue": 8,
                     "currentEquation": "10"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.3255208333333333,
+            "y": 0.23214285714285715,
+            "uniqueID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
+            "ioValues": [],
+            "description": "Defines a mathematical constant.",
+            "value": 8
         }
     ],
     "allConnectors": [
@@ -591,6 +601,24 @@
             "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap1ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
+            "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
+            "ap2ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "Number",
+            "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
+            "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "distY",
+            "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
         }
     ],
