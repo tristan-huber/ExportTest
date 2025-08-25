@@ -555,7 +555,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
+                    "ioValue": 6,
                     "currentEquation": "10"
                 }
             ],
