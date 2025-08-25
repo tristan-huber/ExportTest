@@ -35,7 +35,13 @@
             "x": 0.32356770833333337,
             "y": 0.5178571428571428,
             "uniqueID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input (1)",
+                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+                    "currentEquation": null
+                }
+            ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
@@ -45,7 +51,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "7b605e97-3911-434a-8636-d36029a7f439",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -65,6 +77,11 @@
                     "y": 0.6696428571428571,
                     "uniqueID": "7b605e97-3911-434a-8636-d36029a7f439",
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+                            "currentEquation": null
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 10,
@@ -110,12 +127,17 @@
             "ioValues": [
                 {
                     "name": "Number",
-                    "ioValue": 4,
+                    "ioValue": 3,
                     "currentEquation": null
                 },
                 {
                     "name": "Dist",
                     "ioValue": 15,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Geometry",
+                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
                     "currentEquation": null
                 }
             ],
@@ -242,6 +264,11 @@
                     "currentEquation": "4"
                 },
                 {
+                    "name": "Geometry",
+                    "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
+                    "currentEquation": null
+                },
+                {
                     "name": "distX",
                     "ioValue": 10,
                     "currentEquation": "10"
@@ -266,7 +293,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "b0bab4a9-00a2-45d6-8052-31ebf52184a3",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "3f3b380c-3f7b-464a-806d-e577cf7dc604",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -334,6 +367,11 @@
                         {
                             "name": "distZ",
                             "ioValue": 10,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Shape",
+                            "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
                             "currentEquation": null
                         }
                     ],
@@ -444,6 +482,11 @@
             "uniqueID": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
+                    "currentEquation": null
+                },
+                {
                     "name": "height",
                     "ioValue": 4,
                     "currentEquation": "10"
@@ -510,6 +553,12 @@
             "ap2Name": "geometry",
             "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
             "ap2ID": "1f3b1afb-250c-43b1-b436-ea0340a1ebdb"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Input (1)",
+            "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+            "ap2ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c"
         },
         {
             "ap1Name": "geometry",
