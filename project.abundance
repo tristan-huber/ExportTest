@@ -47,7 +47,7 @@
             "ioValues": [
                 {
                     "name": "Input (1)",
-                    "ioValue": "805ebad6-ae69-45e2-88dc-9faac2ece2cb",
+                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
                     "currentEquation": null
                 }
             ],
@@ -88,7 +88,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "805ebad6-ae69-45e2-88dc-9faac2ece2cb",
+                            "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
                             "currentEquation": null
                         },
                         {
@@ -297,15 +297,29 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.24609375,
+            "y": 0.6577380952380952,
+            "uniqueID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 4,
+                    "currentEquation": "4"
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                }
+            ],
+            "description": "Creates a new regular polygon. Corners are on the diameter."
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Input (1)",
-            "ap1ID": "805ebad6-ae69-45e2-88dc-9faac2ece2cb",
-            "ap2ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c"
-        },
         {
             "ap1Name": "geometry or number",
             "ap2Name": "number or geometry",
@@ -317,6 +331,12 @@
             "ap2Name": "Geometry",
             "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
             "ap2ID": "9f17a700-f52e-4a03-9af3-e5195bd640ca"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Input (1)",
+            "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+            "ap2ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c"
         }
     ],
     "unitsKey": "MM",
