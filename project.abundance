@@ -327,7 +327,7 @@
             "ioValues": [
                 {
                     "name": "Number",
-                    "ioValue": 8,
+                    "ioValue": 6,
                     "currentEquation": "4"
                 },
                 {
@@ -342,7 +342,7 @@
                 },
                 {
                     "name": "distY",
-                    "ioValue": 8,
+                    "ioValue": 6,
                     "currentEquation": "10"
                 },
                 {
@@ -423,7 +423,7 @@
                         },
                         {
                             "name": "Number",
-                            "ioValue": 8,
+                            "ioValue": 6,
                             "currentEquation": null
                         },
                         {
@@ -433,7 +433,7 @@
                         },
                         {
                             "name": "distY",
-                            "ioValue": 8,
+                            "ioValue": 6,
                             "currentEquation": null
                         },
                         {
@@ -555,7 +555,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 8,
+                    "ioValue": 10,
                     "currentEquation": "10"
                 }
             ],
@@ -569,7 +569,7 @@
             "uniqueID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ioValues": [],
             "description": "Defines a mathematical constant.",
-            "value": 8
+            "value": 6
         }
     ],
     "allConnectors": [
