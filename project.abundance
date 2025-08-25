@@ -14,7 +14,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "b8f62792-33dd-4649-9971-8e12b5d69689",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "1f3b1afb-250c-43b1-b436-ea0340a1ebdb",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -514,6 +520,11 @@
             "uniqueID": "1f3b1afb-250c-43b1-b436-ea0340a1ebdb",
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+                    "currentEquation": null
+                },
+                {
                     "name": "height",
                     "ioValue": 10,
                     "currentEquation": "10"
@@ -534,6 +545,12 @@
             "ap2Name": "geometry",
             "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
             "ap2ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+            "ap2ID": "1f3b1afb-250c-43b1-b436-ea0340a1ebdb"
         },
         {
             "ap1Name": "geometry",
@@ -558,6 +575,12 @@
             "ap2Name": "distY",
             "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "1f3b1afb-250c-43b1-b436-ea0340a1ebdb",
+            "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
         }
     ],
     "unitsKey": "MM",
