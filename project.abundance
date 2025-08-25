@@ -14,43 +14,16 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "b8f62792-33dd-4649-9971-8e12b5d69689",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.14192708333333331,
-            "y": 0.4257142857142857,
-            "uniqueID": "805ebad6-ae69-45e2-88dc-9faac2ece2cb",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Creates a new circle."
         },
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.3782552083333333,
-            "y": 0.7351190476190477,
+            "x": 0.32356770833333337,
+            "y": 0.5178571428571428,
             "uniqueID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-            "ioValues": [
-                {
-                    "name": "Input (1)",
-                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
@@ -60,13 +33,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "7b605e97-3911-434a-8636-d36029a7f439",
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -82,15 +49,10 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4453125,
-                    "y": 0.625,
+                    "x": 0.5299479166666666,
+                    "y": 0.6696428571428571,
                     "uniqueID": "7b605e97-3911-434a-8636-d36029a7f439",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-                            "currentEquation": null
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 10,
@@ -114,14 +76,12 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "6530f0b1-3f8f-44be-b00a-902831086bec",
                     "ap2ID": "7b605e97-3911-434a-8636-d36029a7f439"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "7b605e97-3911-434a-8636-d36029a7f439",
                     "ap2ID": "7df9c628-36a1-4d9c-bc7d-2d47c46e2e23"
                 }
@@ -132,8 +92,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.5638020833333333,
-            "y": 0.4226190476190476,
+            "x": 0.4153645833333333,
+            "y": 0.7142857142857143,
             "uniqueID": "9f17a700-f52e-4a03-9af3-e5195bd640ca",
             "ioValues": [
                 {
@@ -148,7 +108,7 @@
                 },
                 {
                     "name": "Geometry",
-                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
+                    "ioValue": null,
                     "currentEquation": null
                 }
             ],
@@ -161,13 +121,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "a959e754-10dd-4fb8-8fba-dae350893d7b",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "59d388f2-822f-48da-a4a1-fad4017739ce",
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -179,7 +133,7 @@
                     "ioValues": [
                         {
                             "name": "Shape",
-                            "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
+                            "ioValue": null,
                             "currentEquation": null
                         },
                         {
@@ -250,30 +204,26 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "output",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "59d388f2-822f-48da-a4a1-fad4017739ce",
                     "ap2ID": "a959e754-10dd-4fb8-8fba-dae350893d7b"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Number",
-                    "ap2Primary": false,
                     "ap1ID": "53b282c0-51fe-45f6-9405-4cdce7234623",
                     "ap2ID": "59d388f2-822f-48da-a4a1-fad4017739ce"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Dist",
-                    "ap2Primary": false,
                     "ap1ID": "dbc11536-7e73-48d1-9c32-15fa6903ed56",
                     "ap2ID": "59d388f2-822f-48da-a4a1-fad4017739ce"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Shape",
-                    "ap2Primary": false,
                     "ap1ID": "7da9faf8-653e-419d-8b98-2046ca85f9ce",
                     "ap2ID": "59d388f2-822f-48da-a4a1-fad4017739ce"
                 }
@@ -307,8 +257,8 @@
         {
             "atomType": "RegularPolygon",
             "name": "RegularPolygon",
-            "x": 0.24609375,
-            "y": 0.6577380952380952,
+            "x": 0.7395833333333334,
+            "y": 0.431547619047619,
             "uniqueID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
             "ioValues": [
                 {
@@ -327,19 +277,14 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.7278645833333334,
-            "y": 0.17261904761904762,
+            "x": 0.5188802083333334,
+            "y": 0.19345238095238093,
             "uniqueID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4",
             "ioValues": [
                 {
                     "name": "Number",
                     "ioValue": 4,
                     "currentEquation": "4"
-                },
-                {
-                    "name": "Geometry",
-                    "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
-                    "currentEquation": "10"
                 },
                 {
                     "name": "distX",
@@ -366,13 +311,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "b0bab4a9-00a2-45d6-8052-31ebf52184a3",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "3f3b380c-3f7b-464a-806d-e577cf7dc604",
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -422,11 +361,6 @@
                     "y": 0.4337349397590362,
                     "uniqueID": "3f3b380c-3f7b-464a-806d-e577cf7dc604",
                     "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
-                            "currentEquation": null
-                        },
                         {
                             "name": "Number",
                             "ioValue": 4,
@@ -487,42 +421,36 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Number",
-                    "ap2Primary": false,
                     "ap1ID": "e94269bc-a777-4b79-b569-8488e996c6f0",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Shape",
-                    "ap2Primary": false,
                     "ap1ID": "cae71d35-aff6-4d4f-bbe2-abc533513c4b",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "output",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604",
                     "ap2ID": "b0bab4a9-00a2-45d6-8052-31ebf52184a3"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distX",
-                    "ap2Primary": false,
                     "ap1ID": "aeadfe06-4422-47d7-a76e-7f1dc47cf18d",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distY",
-                    "ap2Primary": false,
                     "ap1ID": "9f71e343-8b57-41e5-958e-ea0ee868c231",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distZ",
-                    "ap2Primary": false,
                     "ap1ID": "8736c534-dd38-4756-be04-ce96b29999a6",
                     "ap2ID": "3f3b380c-3f7b-464a-806d-e577cf7dc604"
                 }
@@ -556,15 +484,10 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5247395833333334,
-            "y": 0.318452380952381,
+            "x": 0.4231770833333333,
+            "y": 0.3125,
             "uniqueID": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-                    "currentEquation": null
-                },
                 {
                     "name": "height",
                     "ioValue": 10,
@@ -576,68 +499,63 @@
         {
             "atomType": "Constant",
             "name": "Constant",
-            "x": 0.3255208333333333,
-            "y": 0.23214285714285715,
+            "x": 0.20117187500000003,
+            "y": 0.21726190476190477,
             "uniqueID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ioValues": [],
             "description": "Defines a mathematical constant.",
             "value": 4
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.8450520833333333,
+            "y": 0.6636904761904763,
+            "uniqueID": "1f3b1afb-250c-43b1-b436-ea0340a1ebdb",
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
-            "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
-        },
-        {
-            "ap1Name": "Geometry",
+            "ap1Name": "geometry or number",
             "ap2Name": "Geometry",
-            "ap2Primary": false,
             "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
             "ap2ID": "9f17a700-f52e-4a03-9af3-e5195bd640ca"
         },
         {
-            "ap1Name": "Geometry",
+            "ap1Name": "geometry or number",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c",
             "ap2ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc"
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Input (1)",
-            "ap2Primary": false,
-            "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
-            "ap2ID": "247bb1d9-7a05-4f39-a7b3-f36b0e6fc20c"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Geometry",
-            "ap2Primary": false,
             "ap1ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc",
             "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
         },
         {
             "ap1Name": "number",
             "ap2Name": "height",
-            "ap2Primary": false,
             "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ap2ID": "d33d9b5a-3414-4563-be6f-f35d54c90abc"
         },
         {
             "ap1Name": "number",
             "ap2Name": "Number",
-            "ap2Primary": false,
             "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
         },
         {
             "ap1Name": "number",
             "ap2Name": "distY",
-            "ap2Primary": false,
             "ap1ID": "de8fd42f-d4ab-4d6f-a7a9-b06dbd58c3e7",
             "ap2ID": "607620c8-55ca-435e-bbc3-fe25ff68ccd4"
         }
