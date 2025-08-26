@@ -238,7 +238,7 @@
                 },
                 {
                     "name": "y",
-                    "ioValue": 0,
+                    "ioValue": 1,
                     "currentEquation": null
                 }
             ],
@@ -251,7 +251,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "262794cd-ac55-47b5-a6d2-6160a0fb2625",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "1971ec62-52ec-465c-a094-d1c20ef1e560",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -347,6 +353,11 @@
                             "currentEquation": null
                         },
                         {
+                            "name": "yDist",
+                            "ioValue": 1,
+                            "currentEquation": null
+                        },
+                        {
                             "name": "zDist",
                             "ioValue": -5,
                             "currentEquation": null
@@ -360,7 +371,13 @@
                     "x": 0.7428180574555403,
                     "y": 0.680722891566265,
                     "uniqueID": "1971ec62-52ec-465c-a094-d1c20ef1e560",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "9a4bc315-1223-45b5-a261-0549f6251218",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 22
                 },
@@ -502,9 +519,112 @@
                     "name": "geometry1",
                     "ioValue": "632a0b74-d16a-4249-8014-c42d6aff1bfc",
                     "currentEquation": null
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "bfc65c19-0ffb-46ea-b5c3-6d6956efb855",
+                    "currentEquation": null
                 }
             ],
             "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.91015625,
+            "y": 0.8839285714285715,
+            "uniqueID": "a195ad1e-bc88-486f-b4a0-81462e0d70af",
+            "ioValues": [
+                {
+                    "name": "Shape 2",
+                    "ioValue": "c4afee3d-aa79-49e5-b29f-dc11a4104c23"
+                },
+                {
+                    "name": "Shape 3",
+                    "ioValue": "91e8dcec-7975-4c05-bd61-3a454b5e8497"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.54296875,
+            "y": 0.8184523809523809,
+            "uniqueID": "c4afee3d-aa79-49e5-b29f-dc11a4104c23",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "dc37990f-eff0-4749-a165-44ad3865b97c",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.681640625,
+            "y": 0.7083333333333333,
+            "uniqueID": "0a7a3fb7-2cda-4a17-8f95-00ff419336c0",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "af84f2ee-010e-41ac-ada6-63bfa6d37657",
+                    "currentEquation": null
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 90,
+                    "currentEquation": "90"
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 90,
+                    "currentEquation": "90"
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.8040364583333333,
+            "y": 0.6845238095238095,
+            "uniqueID": "91e8dcec-7975-4c05-bd61-3a454b5e8497",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "0a7a3fb7-2cda-4a17-8f95-00ff419336c0",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -528,6 +648,12 @@
         },
         {
             "ap1Name": "geometry or number",
+            "ap2Name": "geometry",
+            "ap1ID": "dc37990f-eff0-4749-a165-44ad3865b97c",
+            "ap2ID": "c4afee3d-aa79-49e5-b29f-dc11a4104c23"
+        },
+        {
+            "ap1Name": "geometry or number",
             "ap2Name": "geometry2",
             "ap1ID": "bfc65c19-0ffb-46ea-b5c3-6d6956efb855",
             "ap2ID": "af84f2ee-010e-41ac-ada6-63bfa6d37657"
@@ -537,6 +663,30 @@
             "ap2Name": "geometry1",
             "ap1ID": "632a0b74-d16a-4249-8014-c42d6aff1bfc",
             "ap2ID": "af84f2ee-010e-41ac-ada6-63bfa6d37657"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "af84f2ee-010e-41ac-ada6-63bfa6d37657",
+            "ap2ID": "0a7a3fb7-2cda-4a17-8f95-00ff419336c0"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap1ID": "c4afee3d-aa79-49e5-b29f-dc11a4104c23",
+            "ap2ID": "a195ad1e-bc88-486f-b4a0-81462e0d70af"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "0a7a3fb7-2cda-4a17-8f95-00ff419336c0",
+            "ap2ID": "91e8dcec-7975-4c05-bd61-3a454b5e8497"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 3",
+            "ap1ID": "91e8dcec-7975-4c05-bd61-3a454b5e8497",
+            "ap2ID": "a195ad1e-bc88-486f-b4a0-81462e0d70af"
         }
     ],
     "unitsKey": "MM",
