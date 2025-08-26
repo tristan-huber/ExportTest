@@ -233,7 +233,7 @@
                 },
                 {
                     "name": "x",
-                    "ioValue": 0,
+                    "ioValue": 1,
                     "currentEquation": null
                 },
                 {
@@ -339,6 +339,11 @@
                         {
                             "name": "geometry",
                             "ioValue": "a19e4ce3-3b4a-410e-8ce8-2e5372c7c4ed",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 1,
                             "currentEquation": null
                         },
                         {
