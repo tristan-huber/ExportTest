@@ -14,7 +14,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "b8f62792-33dd-4649-9971-8e12b5d69689",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "dc37990f-eff0-4749-a165-44ad3865b97c",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -56,7 +62,7 @@
                 },
                 {
                     "name": "Geometry",
-                    "ioValue": 10,
+                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
                     "currentEquation": null
                 }
             ],
@@ -69,7 +75,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "d7c4682e-a872-405b-8ffe-5b17268454e9",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "4ad1e0ec-0fdf-481f-959f-ed06561748b3",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -81,7 +93,7 @@
                     "ioValues": [
                         {
                             "name": "Shape",
-                            "ioValue": 10,
+                            "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
                             "currentEquation": null
                         },
                         {
@@ -204,6 +216,12 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+            "ap2ID": "dc37990f-eff0-4749-a165-44ad3865b97c"
+        },
         {
             "ap1Name": "geometry or number",
             "ap2Name": "number or geometry",
