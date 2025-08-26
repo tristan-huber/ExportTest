@@ -213,6 +213,293 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Hole",
+            "x": 0.619140625,
+            "y": 0.27976190476190477,
+            "uniqueID": "bfc65c19-0ffb-46ea-b5c3-6d6956efb855",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 5,
+                    "currentEquation": null
+                },
+                {
+                    "name": "length",
+                    "ioValue": 10,
+                    "currentEquation": null
+                },
+                {
+                    "name": "x",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "y",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "262794cd-ac55-47b5-a6d2-6160a0fb2625",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "diameter",
+                    "x": 0.025384615384615384,
+                    "y": 0.2680722891566265,
+                    "uniqueID": "659de450-0f8d-427f-affd-2e7796ca9621",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "length",
+                    "x": 0.025384615384615384,
+                    "y": 0.39759036144578314,
+                    "uniqueID": "62bf6775-d0e8-4bce-bd90-02377201eb93",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "x",
+                    "x": 0.025384615384615384,
+                    "y": 0.5903614457831325,
+                    "uniqueID": "4ad2b8df-bd13-40c4-9c86-77f5adc05c54",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "y",
+                    "x": 0.025384615384615384,
+                    "y": 0.7409638554216867,
+                    "uniqueID": "b7ce6ba0-b5d2-4836-b833-41a854e9cf72",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.26265389876880985,
+                    "y": 0.23493975903614459,
+                    "uniqueID": "adb3836b-3159-4474-a94b-48d40ce2204f",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 5,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4445964432284542,
+                    "y": 0.3283132530120482,
+                    "uniqueID": "a19e4ce3-3b4a-410e-8ce8-2e5372c7c4ed",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "adb3836b-3159-4474-a94b-48d40ce2204f",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5909712722298222,
+                    "y": 0.5030120481927711,
+                    "uniqueID": "9a4bc315-1223-45b5-a261-0549f6251218",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "a19e4ce3-3b4a-410e-8ce8-2e5372c7c4ed",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -5,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.7428180574555403,
+                    "y": 0.680722891566265,
+                    "uniqueID": "1971ec62-52ec-465c-a094-d1c20ef1e560",
+                    "ioValues": [],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-x /2",
+                    "x": 0.47195622435020523,
+                    "y": 0.7048192771084337,
+                    "uniqueID": "80c954dd-4c35-40bd-8521-870e44a390cc",
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "-x /2"
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap1ID": "659de450-0f8d-427f-affd-2e7796ca9621",
+                    "ap2ID": "adb3836b-3159-4474-a94b-48d40ce2204f"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": "62bf6775-d0e8-4bce-bd90-02377201eb93",
+                    "ap2ID": "a19e4ce3-3b4a-410e-8ce8-2e5372c7c4ed"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": "62bf6775-d0e8-4bce-bd90-02377201eb93",
+                    "ap2ID": "80c954dd-4c35-40bd-8521-870e44a390cc"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "xDist",
+                    "ap1ID": "4ad2b8df-bd13-40c4-9c86-77f5adc05c54",
+                    "ap2ID": "9a4bc315-1223-45b5-a261-0549f6251218"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "yDist",
+                    "ap1ID": "b7ce6ba0-b5d2-4836-b833-41a854e9cf72",
+                    "ap2ID": "9a4bc315-1223-45b5-a261-0549f6251218"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "adb3836b-3159-4474-a94b-48d40ce2204f",
+                    "ap2ID": "a19e4ce3-3b4a-410e-8ce8-2e5372c7c4ed"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "a19e4ce3-3b4a-410e-8ce8-2e5372c7c4ed",
+                    "ap2ID": "9a4bc315-1223-45b5-a261-0549f6251218"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "9a4bc315-1223-45b5-a261-0549f6251218",
+                    "ap2ID": "1971ec62-52ec-465c-a094-d1c20ef1e560"
+                },
+                {
+                    "ap1Name": "color",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "1971ec62-52ec-465c-a094-d1c20ef1e560",
+                    "ap2ID": "262794cd-ac55-47b5-a6d2-6160a0fb2625"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": "80c954dd-4c35-40bd-8521-870e44a390cc",
+                    "ap2ID": "9a4bc315-1223-45b5-a261-0549f6251218"
+                }
+            ],
+            "parentRepo": {
+                "lastFoundGit": "2025-08-26T15:47:14.880Z",
+                "privateRepo": false,
+                "repoName": "Hole",
+                "dateCreated": "2025-06-20T17:03:18Z",
+                "readMe": "https://raw.githubusercontent.com/alzatin/Hole/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "3c8d21e1-b281-4fdc-b2ef-00cbe1553401",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/alzatin/Hole",
+                "topics": [
+                    "abundance-tool"
+                ],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739422",
+                "ranking": 0,
+                "searchField": "hole alzatin makes a hole of a given diameter and length centered in a given x,y point abundance-tool",
+                "owner": "alzatin",
+                "description": "Makes a hole of a given diameter and length centered in a given x,y point",
+                "contentURL": "https://raw.githubusercontent.com/alzatin/Hole/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/alzatin/Hole/master/project.svg?sanitize=true",
+                "isLocal": false
+            },
+            "unitsKey": "MM",
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.35286458333333337,
+            "y": 0.3005952380952381,
+            "uniqueID": "632a0b74-d16a-4249-8014-c42d6aff1bfc",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.76171875,
+            "y": 0.4107142857142857,
+            "uniqueID": "af84f2ee-010e-41ac-ada6-63bfa6d37657",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": "632a0b74-d16a-4249-8014-c42d6aff1bfc",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
         }
     ],
     "allConnectors": [
@@ -223,10 +510,28 @@
             "ap2ID": "dc37990f-eff0-4749-a165-44ad3865b97c"
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+            "ap2ID": "632a0b74-d16a-4249-8014-c42d6aff1bfc"
+        },
+        {
             "ap1Name": "geometry or number",
             "ap2Name": "number or geometry",
             "ap1ID": "dc37990f-eff0-4749-a165-44ad3865b97c",
             "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "geometry2",
+            "ap1ID": "bfc65c19-0ffb-46ea-b5c3-6d6956efb855",
+            "ap2ID": "af84f2ee-010e-41ac-ada6-63bfa6d37657"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap1ID": "632a0b74-d16a-4249-8014-c42d6aff1bfc",
+            "ap2ID": "af84f2ee-010e-41ac-ada6-63bfa6d37657"
         }
     ],
     "unitsKey": "MM",
