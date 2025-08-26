@@ -37,8 +37,8 @@
                 },
                 {
                     "name": "diameter",
-                    "ioValue": 8,
-                    "currentEquation": "blep"
+                    "ioValue": 10,
+                    "currentEquation": "10"
                 }
             ],
             "description": "Creates a new regular polygon. Corners are on the diameter."
