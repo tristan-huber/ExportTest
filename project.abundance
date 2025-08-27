@@ -134,7 +134,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.025384615384615384,
+                    "x": 0.05499999999999999,
                     "y": 0.32869080779944293,
                     "uniqueID": "37e66e81-5df7-40f3-af61-545a21f2a390",
                     "ioValues": [],
@@ -144,7 +144,7 @@
                 {
                     "atomType": "Input",
                     "name": "Dist",
-                    "x": 0.025384615384615384,
+                    "x": 0.05499999999999999,
                     "y": 0.6434540389972144,
                     "uniqueID": "e9be7ebf-7352-40c9-83ba-73b000a25fd1",
                     "ioValues": [],
@@ -154,7 +154,7 @@
                 {
                     "atomType": "Input",
                     "name": "Geometry",
-                    "x": 0.025384615384615384,
+                    "x": 0.05499999999999999,
                     "y": 0.9108635097493036,
                     "uniqueID": "3cdc23f8-8700-4d42-abf6-2d88723daefb",
                     "ioValues": [],
@@ -263,7 +263,7 @@
                 {
                     "atomType": "Input",
                     "name": "diameter",
-                    "x": 0.025384615384615384,
+                    "x": 0.05499999999999999,
                     "y": 0.2680722891566265,
                     "uniqueID": "659de450-0f8d-427f-affd-2e7796ca9621",
                     "ioValues": [],
@@ -273,7 +273,7 @@
                 {
                     "atomType": "Input",
                     "name": "length",
-                    "x": 0.025384615384615384,
+                    "x": 0.05499999999999999,
                     "y": 0.39759036144578314,
                     "uniqueID": "62bf6775-d0e8-4bce-bd90-02377201eb93",
                     "ioValues": [],
@@ -283,7 +283,7 @@
                 {
                     "atomType": "Input",
                     "name": "x",
-                    "x": 0.025384615384615384,
+                    "x": 0.05499999999999999,
                     "y": 0.5903614457831325,
                     "uniqueID": "4ad2b8df-bd13-40c4-9c86-77f5adc05c54",
                     "ioValues": [],
@@ -293,7 +293,7 @@
                 {
                     "atomType": "Input",
                     "name": "y",
-                    "x": 0.025384615384615384,
+                    "x": 0.05499999999999999,
                     "y": 0.7409638554216867,
                     "uniqueID": "b7ce6ba0-b5d2-4836-b833-41a854e9cf72",
                     "ioValues": [],
@@ -625,6 +625,16 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.10448451181059902,
+            "y": 0.3244119908687842,
+            "uniqueID": "f98e77d7-dbe0-473b-bb03-0f8a43c3187e",
+            "ioValues": [],
+            "description": "Defines a mathematical constant.",
+            "value": 40
         }
     ],
     "allConnectors": [
@@ -687,6 +697,12 @@
             "ap2Name": "Shape 3",
             "ap1ID": "91e8dcec-7975-4c05-bd61-3a454b5e8497",
             "ap2ID": "a195ad1e-bc88-486f-b4a0-81462e0d70af"
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap1ID": "f98e77d7-dbe0-473b-bb03-0f8a43c3187e",
+            "ap2ID": "632a0b74-d16a-4249-8014-c42d6aff1bfc"
         }
     ],
     "unitsKey": "MM",
