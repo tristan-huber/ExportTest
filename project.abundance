@@ -7,8 +7,8 @@
     "ioValues": [
         {
             "name": "Sides",
-            "ioValue": 4,
-            "currentEquation": null
+            "ioValue": 9,
+            "currentEquation": "9"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -38,12 +38,12 @@
             "ioValues": [
                 {
                     "name": "number of sides",
-                    "ioValue": 4,
+                    "ioValue": 9,
                     "currentEquation": null
                 },
                 {
                     "name": "diameter",
-                    "ioValue": 8,
+                    "ioValue": 6,
                     "currentEquation": "Sides * 2"
                 }
             ],
