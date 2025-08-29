@@ -4,7 +4,13 @@
     "x": 0,
     "y": 0,
     "uniqueID": "a74a1315-99f7-4001-adde-02dfac985075",
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Sides",
+            "ioValue": 4,
+            "currentEquation": "4"
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -32,7 +38,7 @@
             "ioValues": [
                 {
                     "name": "number of sides",
-                    "ioValue": 3,
+                    "ioValue": 4,
                     "currentEquation": "3"
                 },
                 {
@@ -134,7 +140,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.32869080779944293,
                     "uniqueID": "37e66e81-5df7-40f3-af61-545a21f2a390",
                     "ioValues": [],
@@ -144,7 +150,7 @@
                 {
                     "atomType": "Input",
                     "name": "Dist",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.6434540389972144,
                     "uniqueID": "e9be7ebf-7352-40c9-83ba-73b000a25fd1",
                     "ioValues": [],
@@ -154,7 +160,7 @@
                 {
                     "atomType": "Input",
                     "name": "Geometry",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.9108635097493036,
                     "uniqueID": "3cdc23f8-8700-4d42-abf6-2d88723daefb",
                     "ioValues": [],
@@ -263,7 +269,7 @@
                 {
                     "atomType": "Input",
                     "name": "diameter",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.2680722891566265,
                     "uniqueID": "659de450-0f8d-427f-affd-2e7796ca9621",
                     "ioValues": [],
@@ -273,7 +279,7 @@
                 {
                     "atomType": "Input",
                     "name": "length",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.39759036144578314,
                     "uniqueID": "62bf6775-d0e8-4bce-bd90-02377201eb93",
                     "ioValues": [],
@@ -283,7 +289,7 @@
                 {
                     "atomType": "Input",
                     "name": "x",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.5903614457831325,
                     "uniqueID": "4ad2b8df-bd13-40c4-9c86-77f5adc05c54",
                     "ioValues": [],
@@ -293,7 +299,7 @@
                 {
                     "atomType": "Input",
                     "name": "y",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.7409638554216867,
                     "uniqueID": "b7ce6ba0-b5d2-4836-b833-41a854e9cf72",
                     "ioValues": [],
@@ -502,7 +508,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
+                    "ioValue": 20,
                     "currentEquation": "10"
                 }
             ],
@@ -634,7 +640,17 @@
             "uniqueID": "f98e77d7-dbe0-473b-bb03-0f8a43c3187e",
             "ioValues": [],
             "description": "Defines a mathematical constant.",
-            "value": 40
+            "value": 20
+        },
+        {
+            "atomType": "Input",
+            "name": "Sides",
+            "x": 0.025384615384615384,
+            "y": 0.636904761904762,
+            "uniqueID": "b5186f77-bfb1-4022-8450-d9f5a13e6bbf",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
@@ -703,6 +719,12 @@
             "ap2Name": "height",
             "ap1ID": "f98e77d7-dbe0-473b-bb03-0f8a43c3187e",
             "ap2ID": "632a0b74-d16a-4249-8014-c42d6aff1bfc"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "number of sides",
+            "ap1ID": "b5186f77-bfb1-4022-8450-d9f5a13e6bbf",
+            "ap2ID": "67930380-f2ff-49ce-b9f1-629a1071d56a"
         }
     ],
     "unitsKey": "MM",
