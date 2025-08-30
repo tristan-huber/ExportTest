@@ -52,8 +52,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.4466145833333333,
-            "y": 0.6011904761904762,
+            "x": 0.33723958333333337,
+            "y": 0.7023809523809524,
             "uniqueID": "dc37990f-eff0-4749-a165-44ad3865b97c",
             "ioValues": [
                 {
@@ -566,8 +566,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 1,
+                    "currentEquation": "1"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -651,6 +651,48 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.5970052083333334,
+            "y": 0.5238095238095238,
+            "uniqueID": "6fc57c29-bfa8-4fc1-b054-2439e482ae6e",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "c4afee3d-aa79-49e5-b29f-dc11a4104c23",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 3,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.35,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "ExportTest",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "ExportTest",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -701,6 +743,12 @@
             "ap2Name": "Shape 2",
             "ap1ID": "c4afee3d-aa79-49e5-b29f-dc11a4104c23",
             "ap2ID": "a195ad1e-bc88-486f-b4a0-81462e0d70af"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "c4afee3d-aa79-49e5-b29f-dc11a4104c23",
+            "ap2ID": "6fc57c29-bfa8-4fc1-b054-2439e482ae6e"
         },
         {
             "ap1Name": "geometry",
