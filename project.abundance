@@ -8,7 +8,7 @@
         {
             "name": "Sides",
             "ioValue": 5,
-            "currentEquation": "5"
+            "currentEquation": null
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -23,7 +23,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "dc37990f-eff0-4749-a165-44ad3865b97c",
+                    "ioValue": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
                     "currentEquation": null
                 }
             ],
@@ -219,6 +219,57 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "ExportTest",
             "sortDirection": "Left"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.48307291666666663,
+            "y": 0.8273809523809523,
+            "uniqueID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "dc37990f-eff0-4749-a165-44ad3865b97c",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 1,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6048177083333333,
+            "y": 0.8303571428571428,
+            "uniqueID": "00d9f9fc-5b8c-4c6b-82bb-0a4bac98853e",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         },
         {
             "atomType": "GitHubMolecule",
@@ -664,57 +715,6 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.48307291666666663,
-            "y": 0.8273809523809523,
-            "uniqueID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "dc37990f-eff0-4749-a165-44ad3865b97c",
-                    "currentEquation": null
-                },
-                {
-                    "name": "height",
-                    "ioValue": 1,
-                    "currentEquation": "1"
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negative."
-        },
-        {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.6048177083333333,
-            "y": 0.8303571428571428,
-            "uniqueID": "00d9f9fc-5b8c-4c6b-82bb-0a4bac98853e",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Sheet Width",
-                    "ioValue": 2438,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Sheet Height",
-                    "ioValue": 1219,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Padding",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": []
         }
     ],
     "allConnectors": [
@@ -767,9 +767,15 @@
             "ap2ID": "67930380-f2ff-49ce-b9f1-629a1071d56a"
         },
         {
-            "ap1Name": "geometry or number",
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
+            "ap2ID": "00d9f9fc-5b8c-4c6b-82bb-0a4bac98853e"
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
-            "ap1ID": "dc37990f-eff0-4749-a165-44ad3865b97c",
+            "ap1ID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
             "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
         },
         {
@@ -783,12 +789,6 @@
             "ap2Name": "geometry2",
             "ap1ID": "bfc65c19-0ffb-46ea-b5c3-6d6956efb855",
             "ap2ID": "af84f2ee-010e-41ac-ada6-63bfa6d37657"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
-            "ap2ID": "00d9f9fc-5b8c-4c6b-82bb-0a4bac98853e"
         }
     ],
     "unitsKey": "MM",
