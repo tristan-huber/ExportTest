@@ -177,8 +177,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6341145833333333,
-            "y": 0.822857142857143,
+            "x": 0.630859375,
+            "y": 0.8428571428571429,
             "uniqueID": "6fc57c29-bfa8-4fc1-b054-2439e482ae6e",
             "ioValues": [
                 {
@@ -214,8 +214,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4544270833333333,
-            "y": 0.6457142857142857,
+            "x": 0.44140625,
+            "y": 0.5371428571428571,
             "uniqueID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
             "ioValues": [
                 {
@@ -229,8 +229,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.5455729166666666,
-            "y": 0.8914285714285715,
+            "x": 0.4153645833333333,
+            "y": 0.86,
             "uniqueID": "00d9f9fc-5b8c-4c6b-82bb-0a4bac98853e",
             "ioValues": [
                 {
@@ -261,27 +261,27 @@
                         }
                     },
                     {
-                        "id": 2,
-                        "rotate": 120,
+                        "id": 1,
+                        "rotate": 90,
                         "translate": {
-                            "x": 7.698105162545957,
-                            "y": 24.63468520739835
+                            "x": 7.9135254669381245,
+                            "y": 24.962319339691977
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 90,
+                        "translate": {
+                            "x": 7.9135254669381245,
+                            "y": 41.603865539691974
                         }
                     },
                     {
                         "id": 3,
-                        "rotate": 120,
+                        "rotate": 90,
                         "translate": {
-                            "x": 7.698105162545966,
-                            "y": 40.81532170739834
-                        }
-                    },
-                    {
-                        "id": 1,
-                        "rotate": 120,
-                        "translate": {
-                            "x": 7.698105162545957,
-                            "y": 56.995958207398346
+                            "x": 7.91352546693813,
+                            "y": 58.245411739691974
                         }
                     }
                 ]
@@ -290,8 +290,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.33723958333333337,
-            "y": 0.7023809523809524,
+            "x": 0.3190104166666667,
+            "y": 0.5371428571428571,
             "uniqueID": "dc37990f-eff0-4749-a165-44ad3865b97c",
             "ioValues": [
                 {
@@ -693,6 +693,181 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.3111979166666667,
+            "y": 0.7599999999999999,
+            "uniqueID": "89e00240-b82f-4ca1-99e1-7207a3a487e9",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": {
+                        "geometry": [
+                            {
+                                "geometry": "extrude-singular-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
+                                "dimension": "3D",
+                                "tags": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "bom": []
+                            },
+                            {
+                                "geometry": "extrude-singular-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
+                                "dimension": "3D",
+                                "tags": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "bom": []
+                            },
+                            {
+                                "geometry": "extrude-singular-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
+                                "dimension": "3D",
+                                "tags": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "bom": []
+                            },
+                            {
+                                "geometry": "extrude-singular-11-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
+                                "dimension": "3D",
+                                "tags": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "bom": []
+                            }
+                        ],
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": []
+                    }
+                },
+                {
+                    "name": "Shape 3",
+                    "ioValue": {
+                        "geometry": "extrude-polysides-3-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                    }
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.24674479166666666,
+            "y": 0.8799999999999999,
+            "uniqueID": "5a140025-20e2-4766-89cc-49cfe788ef2a",
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 1,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
         }
     ],
     "allConnectors": [
@@ -707,6 +882,12 @@
             "ap2Name": "geometry",
             "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
             "ap2ID": "632a0b74-d16a-4249-8014-c42d6aff1bfc"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "67930380-f2ff-49ce-b9f1-629a1071d56a",
+            "ap2ID": "5a140025-20e2-4766-89cc-49cfe788ef2a"
         },
         {
             "ap1Name": "geometry",
@@ -746,15 +927,15 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
-            "ap2ID": "00d9f9fc-5b8c-4c6b-82bb-0a4bac98853e"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap1ID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
             "ap2ID": "b8f62792-33dd-4649-9971-8e12b5d69689"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap1ID": "3d703fb0-ebb9-4301-a21d-c2b68dadd728",
+            "ap2ID": "89e00240-b82f-4ca1-99e1-7207a3a487e9"
         },
         {
             "ap1Name": "geometry",
@@ -773,6 +954,18 @@
             "ap2Name": "geometry2",
             "ap1ID": "bfc65c19-0ffb-46ea-b5c3-6d6956efb855",
             "ap2ID": "af84f2ee-010e-41ac-ada6-63bfa6d37657"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "89e00240-b82f-4ca1-99e1-7207a3a487e9",
+            "ap2ID": "00d9f9fc-5b8c-4c6b-82bb-0a4bac98853e"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 3",
+            "ap1ID": "5a140025-20e2-4766-89cc-49cfe788ef2a",
+            "ap2ID": "89e00240-b82f-4ca1-99e1-7207a3a487e9"
         }
     ],
     "unitsKey": "MM",
